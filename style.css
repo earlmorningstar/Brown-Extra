@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  height: 6113px;
+  background: #ffffff;
+}
+
+.navbar {
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 121px 35px 104px;
+  overflow: hidden;
+}
+
+.nav-list {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.home {
+  text-align: center;
+  width: 77px;
+}
+
+.home:hover {
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  background: #575e79;
+  color: #ffffff;
+}
+
+.showroom-store-about-contact {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.208px;
+  color: #000000;
+}
+
+.bx {
+  font-size: 19.208px;
+  font-weight: 700;
+}
+
+.logo {
+  margin-right: 200px;
+}
+
+.second-part {
+  margin: 0 120px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.first-image {
+  margin: 0 120px 0 0;
+  height: 850px;
+  width: 602px;
+}
+
+.minimal-text {
+  margin: 253px 57px 13px 104px;
+  flex-direction: row;
+  font-weight: 700;
+  font-size: 44.17px;
+  color: #000000;
+}
+
+.find-the-best-text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  flex-direction: row;
+  margin: 0 155px 55px 104px;
+  color: #000000;
+}
+
+.explore {
+  margin: 0 353px 0 120px;
+  padding: 17px 44px;
+  background: #575e79;
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+}
+
+.browse-heading {
+  text-align: center;
+  margin: 198px 0 0 0;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.browse-categories {
+  text-align: center;
+  margin: 76px 0 16px 0;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.third-part {
+  display: flex;
+  margin: 64px 142px 0 211px;
+}
+
+.third-part-images {
+  width: 333.03px;
+  height: 513.45px;
+}
+
+.first-text-part {
+  margin: 91px 10px 67px 23px;
+}
+
+.made-with-text {
+  flex-direction: row;
+  font-weight: 700;
+  font-size: 44.17px;
+  color: #000000;
+}
+
+.our-swinging-text {
+  font-size: 21px;
+  font-weight: 400;
+  color: #000000;
+  margin: 17px 80px 0 0;
+}
+
+.shop-now {
+  margin: 40px 140px 0 0;
+  padding: 18px 22px;
+  background: #575e79;
+  font-weight: 700;
+  font-size: 23px;
+  color: #fff;
+}
+
+.first-cushion {
+  width: 337px;
+  height: 680px;
+  background: #d2ceca;
+}
+
+#second-cushion {
+  margin: 250px 38px 0 0;
+  background: #3e8c9d;
+}
+
+#third-cushion {
+  margin: 80px 38px 0 0;
+  background: #e19b35;
+}
+
+.cushioned-hammock-text {
+  margin: 20px 40px 0 37px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.add-to-cart-btn {
+  margin: 10px 72px 21px 37px;
+  padding: 10px 23px 10px 10px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bx {
+  margin: 0 0 0 10px;
+  font-size: 22px;
+}
+
+.cushioned-hammock {
+  margin: 91px 38px 0 0;
+}
+
+.browsing-images {
+  width: 386.81px;
+  height: 270.24px;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  margin: 0 20px 13px 0;
+}
+
+.browsing-details {
+  position: relative;
+}
+
+.browse-category-bk-image {
+  width: 1440px;
+  height: 737.55px;
+}
+
+.latest-images {
+  position: absolute;
+  display: flex;
+  margin: 91px 120px;
+}
+
+.browsing-btn {
+  background: rgba(255, 255, 255, 0.74);
+  padding: 16px 43px;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.1404px;
+  color: #000000;
+  text-align: center;
+}
+
+.btn-and-image {
+  position: relative;
+}
+
+.button-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending-in-the-showroom-heading {
+  margin: 125px 0 26px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #000000;
+}
+
+.showroom {
+  display: flex;
+  margin: 0 120px;
+}
+
+.showroom-images {
+  margin: 11px 0 13px 0;
+  width: 175.53px;
+  height: 175.53px;
+}
+
+.showroom-details-and-images {
+  display: flex;
+  background: #fb8391;
+  width: 391.49px;
+  height: 200px;
+  margin: 0 13px 15px 0;
+}
+
+.image-title {
+  margin: 40px 2px 0 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
+
+.image-info {
+  margin: 7px 72px 0 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.showroom-btn {
+  margin: 7px 67px 0 30px;
+  padding: 6px 18px;
+  width: 119px;
+  height: 33px;
+  font-weight: 700;
+  font-size: 15px;
+  background: #000000;
+  color: #ffffff;
+}
+
+#title-edit {
+  font-size: 24px;
+}
+
+#info-edit {
+  font-size: 11px;
+}
+
+#wooden-vase {
+  background: #b07e4b;
+}
+
+#hoop-chair {
+  background: #585856;
+}
+
+#stools {
+  background: #dcc9b8;
+}
+
+#bench-chair {
+  background: #6c6567;
+}
+
+#office-chair {
+  background: #c4c4c4;
+}
