@@ -8,14 +8,15 @@
 }
 
 body {
-  margin: 0 120px;
   background: #ffffff;
 }
 
+.real-body {
+  margin: 0 120px;
+}
+
 .navbar {
-  /* margin: 0 120px; */
   font-family: "Inter", sans-serif;
-  /* width: 100%; */
   height: 77px;
   display: flex;
   align-items: center;
@@ -41,13 +42,16 @@ body {
   font-family: "Inter", sans-serif;
   text-align: center;
   width: 77px;
+  padding: 20px;
 }
 
-.home:hover {
-  transition: all 0.2s ease-in-out;
+.showroom-store-about-contact:hover {
+  transition: all 0.3s ease-in-out;
   text-align: center;
   background: #575e79;
   color: #ffffff;
+  height: 100%;
+  padding: 15px;
 }
 
 .showroom-store-about-contact {
@@ -68,24 +72,16 @@ body {
 
 .second-part {
   width: 100%;
-  /* margin: 0 120px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
   margin-top: 50px;
-  /* overflow: hidden; */
 }
 
 .first-image {
   object-fit: cover;
-  /* width: 100%; */
-  /* width: 600px; */
   width: 400px;
-}
-
-.first-image-box {
-  /* width: 50%; */
 }
 
 .text-and-btn {
@@ -131,16 +127,12 @@ body {
 
 .third-part {
   display: flex;
-  /* margin: 0 120px; */
+  gap: 15px;
 }
 
 .third-part-images {
-  /* width: 333.03px;
-  height: 513.45px; */
-}
-
-.first-text-part {
-  /* margin: 91px 10px 67px 23px; */
+  width: 100%;
+  height: 513px;
 }
 
 .made-with-text {
@@ -155,10 +147,11 @@ body {
 .our-swinging-text {
   flex-direction: row;
   font-family: "Inter", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 400;
   color: #000000;
   margin-bottom: 40px;
+  line-height: 23px;
 }
 
 .shop-now {
@@ -171,29 +164,30 @@ body {
 }
 
 .first-cushion {
-  width: 337px;
   height: 680px;
   background: #d2ceca;
 }
 
 #second-cushion {
-  margin: 250px 38px 0 0;
+  margin-top: 250px;
   background: #3e8c9d;
 }
 
 #third-cushion {
-  margin: 80px 38px 0 0;
+  margin-top: 80px;
   background: #e19b35;
 }
 
 .cushioned-hammock-text {
-  margin: 15px 40px 0 37px;
+  margin: 15px 0 0 37px;
   font-family: "Poppins", sans-serif;
   font-size: 23px;
   font-weight: 700;
 }
 
 .add-to-cart-btn {
+  display: flex;
+  align-items: center;
   margin: 5px 72px 21px 37px;
   padding: 10px 23px 10px 10px;
   font-family: Poppins;
@@ -203,40 +197,31 @@ body {
 }
 
 .bx {
-  margin: 0 0 0 10px;
+  margin-left: 10px;
   font-size: 22px;
 }
 
 .cushioned-hammock {
-  margin: 91px 38px 0 0;
+  margin-top: 91px;
 }
 
 .browse-categories {
   text-align: center;
-  margin: 76px 0 16px 0;
+  margin: 76px 0 20px 0;
   font-family: "Inter", sans-serif;
   font-size: 38px;
   font-weight: 700;
 }
 
 .browsing-images {
-  width: 386px;
+  width: 387px;
   height: 270px;
   border: 1px solid #000000;
   border-radius: 30px;
-  margin: 0 20px 13px 0;
 }
 
-#browsing-details {
-  margin: 0;
-}
 .browsing-details {
   position: relative;
-}
-
-.browse-category-bk-img {
-  width: 100%;
-  height: 737px;
 }
 
 .browse-category-bk-image {
@@ -253,7 +238,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  /* margin: 91px 120px; */
 }
 
 .browsing-btn {
@@ -270,6 +254,7 @@ body {
 
 .btn-and-image {
   position: relative;
+  margin: 10px;
 }
 
 .button-div {
@@ -292,13 +277,13 @@ body {
 
 .showroom {
   display: flex;
-  /* margin: 0 120px; */
+  justify-content: center;
+  align-items: center;
 }
 
 .showroom-images {
   margin: 11px 0 13px 0;
-  width: 175.53px;
-  height: 175.53px;
+  width: 100%;
 }
 
 .showroom-details-and-images {
