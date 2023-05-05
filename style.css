@@ -348,3 +348,81 @@ body {
 #bench-chair {
   background: #6c6567;
 }
+
+.customer-review{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 70px;
+
+}
+.images-boxes{
+  flex: 1;
+  display: flex;
+  gap: 50px;
+}
+.review-text{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 100px;
+  background: rgba(87, 94, 121, 0.24);
+  width: 768px;
+ height: 518px;
+ margin-left: -100px;
+}
+.review-text-container{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.boxes{
+  position: relative;
+  width: 292px;
+  height: 403px;
+}
+.review-bg{
+  width: 100%;
+}
+.customer-box{
+  position: absolute;
+  bottom: 0;
+  right: -35px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 1.80731px 1.80731px 3.01219px rgba(0, 0, 0, 0.25);
+  border-radius: 18.0731px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.stars{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.customer-name{
+  font-weight: 700;
+}
+.r-title{
+  font-size: 38px;
+  font-weight: 700;
+}
+.left-reviews{
+  font-size: 19px;
+}
+.r-link{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
