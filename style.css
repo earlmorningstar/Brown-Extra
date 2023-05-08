@@ -462,8 +462,71 @@ body {
   color: #031c54;
 }
 
-.blog-post-img {
-  margin: 0 100px;
-  /* width: 1200px; */
-  height: 642px;
+.post-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+
+.how-to-construct-text {
+  margin-top: 19px;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+  line-height: 52px;
+}
+
+.learn-in-3-text {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  display: flex;
+  color: #000000;
+  gap: 30px;
+}
+
+.how-to-texts {
+  margin: 0 80px 20px 80px;
+}
+
+.need-to-come-container {
+  background: #d7d8df;
+  padding: 30px;
+}
+
+.need-to-come-text {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 73px;
+  color: #000000;
+  text-align: center;
+}
+
+.map-img {
+  width: 100%;
+}
+
+.map-img-div {
+  position: relative;
+}
+
+.find-our-stores-container {
+  position: absolute;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 100px;
+  left: 460px;
+  width: 412px;
+  height: 324px;
+}
+
+.find-our-stores-text {
+  font-size: 50px;
+  font-weight: 600;
 }
