@@ -424,7 +424,7 @@ body {
 }
 
 .r-title {
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -493,6 +493,7 @@ body {
 }
 
 .need-to-come-container {
+  margin-top: 120px;
   background: #d7d8df;
   padding: 30px;
 }
@@ -529,4 +530,38 @@ body {
 .find-our-stores-text {
   font-size: 50px;
   font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px 60px 120px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-sub-div {
+  display: flex;
+  gap: 60px;
+}
+
+.bold-titles {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.light-titles {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #000000;
 }
